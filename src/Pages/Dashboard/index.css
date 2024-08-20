@@ -1,0 +1,86 @@
+  /* Dashboard container styling */
+  .dashboard-container {
+    width:80%;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700320488.jpg');
+    animation: zoomBackground 10s ease-in-out infinite;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+  
+  /* Dashboard title styling */
+  .dashboard-title {
+    color: #1890ff;
+    text-align: center;
+  }
+
+  .admin-dashboard-heading {
+    color: white;
+    /* background-color: black; */
+    font-size: xx-large;
+    text-shadow:1px 1px 0 #000;
+    font-family: Arial, sans-serif;
+    margin-left: 280px;
+    margin-top: -30px;
+    padding: 5px 10px 15px 30px; /* Corrected syntax */
+    margin-right: 300px; /* Corrected syntax */
+}
+  
+  /* Content area styling */
+  .dashboard-content {
+    width: 100%;
+    flex: 1; /* Allow the content to grow and take available space */
+  }
+  
+  /* Card styling */
+  .dashboard-card {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    margin: 10px; /* Add margin between cards */
+    display: flex; /* Flexbox for card content alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 5px;
+  }
+  
+  /* Card content styling */
+  .dashboard-card-content {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  /* Icon styling */
+  .dashboard-icon {
+    color: #52c41a;
+    background-color: rgba(0, 255, 0, 0.1);
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 8px;
+    margin-right: 16px;
+  }
+  
+  /* Recent orders title styling */
+  .recent-orders-title {
+    font-size: 25px;
+    font-size: x-large;
+    margin-bottom: 1px;
+    margin-left: 400px;
+    margin-top: 1px;
+    color: #120d0d;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Uncomment if needed for recent orders table styling */
+  .recent-orders-table {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -20px;
+  }

@@ -1,0 +1,27 @@
+.AppFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.AppFooterLink {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #1890ff;
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+}
+
+.AppFooterLink:hover {
+    color: #40a9ff; /* Change color on hover */
+}
+
+.AppFooterIcon {
+    margin-right: 8px;
+    font-size: 18px;
+}

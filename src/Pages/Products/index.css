@@ -1,0 +1,182 @@
+/* index.css */
+/* Keyframes for zooming background animation */
+@keyframes zoomBackground {
+  0% {
+      background-size: 100% 100%; /* Initial size */
+      background-position: center;
+  }
+  50% {
+      background-size: 120% 120%; /* Zoomed in size */
+      background-position: center;
+  }
+  100% {
+      background-size: 100% 100%; /* Return to original size */
+      background-position: center;
+  }
+}
+
+.product-container {
+  width:82%;
+  margin: 0 auto;
+  margin-top: -100px;
+  padding: 100px;
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700320488.jpg');
+  animation: zoomBackground 10s ease-in-out infinite;
+  background-size: cover;
+  margin-top: 0px;
+  margin-left: -10px;
+}
+
+.product_heading {
+  text-align: center;
+  color: hsl(0, 0%, 0%);
+  position: relative;
+  top: -70px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 500px;
+  width: 20%;
+  position: relative; /* Allows positioning of inner elements */
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Increases font size for better readability */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.6);
+  background-size: cover; /* or 'contain', 'auto', etc. */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  width: 300px; /* Controls the width of the container */
+  height: 380px; /* Controls the height of the container */
+  padding: 20px; /* Adds some padding inside the container */
+  margin-left: 285px;
+  margin-top: -50px;
+  border-radius: 10px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+}
+
+
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="file"] {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  margin-top: 20px;
+  padding: 20px; /* Adds padding around the table */
+  background-color: #ffffff; /* Adds a white background to the container */
+  border-radius: 10px; /* Rounds the corners of the container */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 700px;
+}
+
+/* Table Background Color Class */
+.table-background {
+  background-color: #e3f2fd; /* Light blue color */
+  border-radius: 10px; /* Adds rounded corners to the table */
+  overflow: hidden; /* Ensures content stays within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif; /* Consistent font */
+  font-size: 16px; /* Slightly larger text for readability */
+}
+
+th, td {
+  padding: 12px 15px; /* Slightly increased padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333; /* Darker text for better readability */
+  font-weight: bold; /* Bold header text */
+  text-transform: uppercase; /* Uppercase header text */
+  letter-spacing: 0.05em; /* Adds slight letter spacing */
+}
+
+td {
+  color: #555; /* Slightly lighter text color for table data */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row color */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Hover effect */
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px; /* Adds slight rounding to images */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to images */
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.actions button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+
+.actions button:active {
+  background-color: #004494;
+  transform: scale(0.98); /* Adds a slight press effect */
+}

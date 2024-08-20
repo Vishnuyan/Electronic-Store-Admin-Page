@@ -1,0 +1,46 @@
+.AppHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px; /* Increased padding for a more spacious feel */
+    background-color: #f4f4f9; /* Light gray background for a softer look */
+    border-bottom: 2px solid #c2c2c2; /* Slightly darker border for definition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle, slightly larger shadow for depth */
+    border-radius: 8px; /* Rounded corners for a modern appearance */
+}
+
+.AppHeader .ant-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.AppHeader .AppHeaderTitle {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 1000;
+    color: #00474f; /* Dark teal color */
+    font-family: "Times New Roman"; /* Apply Google Font */
+}
+
+.AppHeader .ant-space {
+    display: flex;
+    align-items: center;
+}
+
+.AppHeader .ant-badge {
+    margin-left: 20px;
+}
+
+.AppHeader .ant-drawer {
+    padding: 24px;
+}
+
+.AppHeader .ant-drawer-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.AppHeader .ant-drawer .ant-btn-primary {
+    border-radius: 4px;
+}
